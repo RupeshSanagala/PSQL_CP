@@ -1,0 +1,39 @@
+1)select * from payment where amount > 2;
+ 
+ 2)select * from payment where amount < 3;
+ 
+ 3)select * from payment where customer_id>=500;
+ 
+ 4)select * from payment where customer_id<=10;
+ 
+ 5)select * from customer where last_name !='Smith';
+ 
+ 6)select * from customer where last_name ='Smith';
+ 
+ 7)select * from customer where not last_name=('Smith');
+ 
+ 8)select * from customer where last_name =('Smith') and store_id='1';
+ 
+ 9)select * from customer where last_name =('Smith') or store_id='2';
+ 
+ 10)select * from customer where last_name in ('Russell');
+ 
+ 11)select * from customer where last_name not in ('Russell');
+ 
+ 12)select * from customer where customer_id between 501 and 503;
+ 
+ 13)select * from customer where customer_id not between 1 and 500;
+ 
+ 14)select last_name from customer where last_name like'l%';
+ 
+ 15) select last_name from customer where last_name not like'l%';
+ 
+ 16)select * from customer where last_name is null;
+ 
+ 17)select * from customer where last_name is not null;
+ 
+ 18)select * from customer limit 10;
+ 
+ 19)select * from customer limit 10 offset 5;
+ 
+ 17)select * from customer where last_name is not null;
